@@ -23,5 +23,13 @@
     "gunzip-maybe": "^1.4.0",
     "tar-fs": "^1.15.1",
     "write": "^0.3.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bengreenier/unity-package-extract.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bengreenier/unity-package-extract/issues"
+  },
+  "homepage": "https://github.com/bengreenier/unity-package-extract#readme"
 }
