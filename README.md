@@ -22,7 +22,11 @@ See the following (or the [tests](./test/basic.js)):
 const client = new UnityExtractClient()
 
 client.extract(src, dest).then(...)
+client.convert(src, dest).then(...)
 ```
+
+Where `extract` unzips a decrypted package (see [bengreenier/unity-package-decrypt](https://github.com/bengreenier/unity-package-decrypt) for more info)
+into a given folder. And `convert` moves and appropriately names the content from one directory to another.
 
 ## License
 
