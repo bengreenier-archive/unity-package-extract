@@ -29,10 +29,10 @@ describe('UnityExtractClient', () => {
         new UnityExtractClient()
     })
 
-    it('should createDecryptStream', () => {
+    it('should createExtractStream', () => {
         const client = new UnityExtractClient()
 
-        const dStream = client.createExtractStream(`${__dirname}/19248.pkg.decr`, `${__dirname}/19248`)
+        const dStream = client.createExtractStream(`${__dirname}/19248`)
 
         assert.ok(dStream instanceof stream.Stream)
     })

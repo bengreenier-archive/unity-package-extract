@@ -1,6 +1,6 @@
 {
   "name": "unity-package-extract",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "client for extracting packages downloaded from the unity package service",
   "main": "index.js",
   "directories": {
@@ -21,6 +21,7 @@
   "dependencies": {
     "del": "^2.2.2",
     "gunzip-maybe": "^1.4.0",
+    "stream-combiner": "^0.2.2",
     "tar-fs": "^1.15.1",
     "write": "^0.3.2"
   },
