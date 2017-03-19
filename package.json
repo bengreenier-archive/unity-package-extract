@@ -1,0 +1,27 @@
+{
+  "name": "unity-package-extract",
+  "version": "0.1.0",
+  "description": "client for extracting packages downloaded from the unity package service",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "unity",
+    "package"
+  ],
+  "author": "Ben Greenier",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "del": "^2.2.2",
+    "gunzip-maybe": "^1.4.0",
+    "tar-fs": "^1.15.1",
+    "write": "^0.3.2"
+  }
+}
